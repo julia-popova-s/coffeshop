@@ -1,0 +1,44 @@
+.header-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 15px;
+
+  align-items: center;
+
+  min-height: 88px;
+  padding: 24px 0;
+}
+
+
+.header-block__logo,
+.header-block__nav {
+  margin-right: 15px;
+}
+
+
+.logotype {
+  width: 40px;
+  height: 40px;
+}
+
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 56px;
+  row-gap: 10px;
+
+  font-family: 'Inter Regular';
+  @include setTextStyle(400, 20px, 120%);
+  color: rgb(40, 42, 58);
+}
+
+
+.shopping-bag {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.shopping-bag__icon {
+  vertical-align: middle;
+}

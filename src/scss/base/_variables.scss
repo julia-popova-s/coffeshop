@@ -1,0 +1,5 @@
+@mixin setTextStyle($weight, $size, $line-height) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line-height;
+}

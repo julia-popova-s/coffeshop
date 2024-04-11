@@ -15,8 +15,7 @@ html {
 }
 
 body {
-  font-family: 'Playfair Display', Arial, Helvetica, serif;
-
+  font-family: 'Inter Regular', Arial, Helvetica, serif;
   font-optical-sizing: auto;
   font-size: 20px;
   font-weight: 400;
@@ -24,7 +23,7 @@ body {
   font-weight: 400;
   font-style: normal;
 
-  color: #2d2d2d;
+  color: #282A3A;
   background-color: white;
 }
 
@@ -36,9 +35,24 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 button {
   border: none;
   outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

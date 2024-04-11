@@ -3,33 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Coffee Shop</title>
   </head>
   <body>
     <footer class="header">
       <div class="container">
-        <nav class="navigation">
-          <ul class="navigation__list">
-            <li class="navigation__list-item">
-              <a href="##" class="navigation__list-link">Products</a>
-            </li>
-            <li class="navigation__list-item">
-              <a href="##" class="navigation__list-link">About us</a>
-            </li>
-            <li class="navigation__list-item">
-              <a href="##" class="navigation__list-link">Testimonial</a>
-            </li>
-            <li class="navigation__list-item">
-              <a href="##" class="navigation__list-link">Contact</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-block">
+          <a class="logotype header-block__logo">
+            <img class="logotype__icon" src="./assets/icons/logo.svg" alt="logotype" />
+          </a>
+
+          <nav class="navigation header-block__nav">
+            <ul class="navigation__list">
+              <li class="navigation__list-item">
+                <a href="##" class="navigation__list-link">Products</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="##" class="navigation__list-link">About us</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="##" class="navigation__list-link">Testimonial</a>
+              </li>
+              <li class="navigation__list-item">
+                <a href="##" class="navigation__list-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <button class="shopping-bag header-block__button">
+            <img class="shopping-bag__icon" src="./assets/icons/shopping-bag.svg" alt="shopping-bag" />
+          </button>
+        </div>
       </div>
     </footer>
   </body>
