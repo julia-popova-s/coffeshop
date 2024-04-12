@@ -1,6 +1,8 @@
-@import './base/normalize';
-@import './base/fonts';
-@import './base/variables';
-@import './base/base';
+@import './utils/libs';
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/mixins';
 
-@import './layout/header';
+@import './utils/base';
+
+@import './modules/header';

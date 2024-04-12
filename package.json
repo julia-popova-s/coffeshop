@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack serve --mode development --open"
   },
   "browserslist": [
     "> 1%",
@@ -30,8 +30,11 @@
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.8.1",
     "mqpacker": "^7.0.0",
+    "normalize.css": "^8.0.1",
     "postcss": "^8.4.38",
     "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^9.5.5",
+    "postcss-sort-media-queries": "^5.2.0",
     "prettier": "^3.2.5",
     "sass": "^1.74.1",
     "sass-loader": "^14.1.1",

@@ -17,9 +17,13 @@
 }
 
 
+
 .logotype {
-  width: 40px;
-  height: 40px;
+  @include size(40px, 40px);
+}
+
+.logotype__icon {
+  min-width: 40px
 }
 
 .navigation__list {
@@ -29,7 +33,7 @@
   row-gap: 10px;
 
   font-family: 'Inter Regular';
-  @include setTextStyle(400, 20px, 120%);
+  @include setTextStyle(400, 20, 120%);
   color: rgb(40, 42, 58);
 }
 
@@ -41,4 +45,5 @@
 
 .shopping-bag__icon {
   vertical-align: middle;
+  min-width: 24px;
 }
