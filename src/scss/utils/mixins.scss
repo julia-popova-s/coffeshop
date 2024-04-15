@@ -10,7 +10,7 @@
   @return calc($pixels / $context * 1rem);
 }
 
-@mixin setTextStyle($weight, $size, $line-height) {
+@mixin textStyle($weight, $size, $line-height) {
   font-weight: $weight;
   font-size: rem($size);
   line-height: $line-height;
@@ -19,4 +19,8 @@
 @mixin size($width, $height: $width) {
   width: $width;
   height: $height;
+}
+
+@mixin fontFamily($font-name) {
+  font-family: $font-name, 'Arial', 'Helvetica', sans-serif;
 }

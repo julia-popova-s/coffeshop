@@ -27,14 +27,14 @@
 }
 
 .navigation__list {
+  font-family: 'Inter Regular', Arial, Helvetica, sans-serif;
+  @include textStyle(400, 20, 120%);
+  color: $main-font-color;
+
   display: flex;
   flex-wrap: wrap;
   column-gap: 56px;
   row-gap: 10px;
-
-  font-family: 'Inter Regular';
-  @include setTextStyle(400, 20, 120%);
-  color: rgb(40, 42, 58);
 }
 
 
