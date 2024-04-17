@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap" rel="stylesheet" />
     <title>Coffee Shop</title>
   </head>
   <body>
@@ -45,13 +48,13 @@
               <p class="main-block__text-item">Discover tranquility at Ngopi a sanctuary for unwinding,</p>
               <p class="main-block__text-item">where your evenings are perfected with relaxation and rich flavors.</p>
             </div>
-            <button class="main-block__link" href="##">
+            <button class="main-block__btn" href="##">
               Explore product
-              <img class="main-block__link-icon" src="./assets/icons/arrow-down-right.svg" alt="arrow-down-right" />
+              <img class="main-block__btn-icon" src="./assets/icons/arrow-down-right.svg" alt="arrow-down-right" />
             </button>
           </div>
 
-          <div class="main-block__images">
+          <div class="main-block__images section">
             <div class="main-block__item">
               <img class="main-block__item-img" src="./assets/images/coffe-1.png" alt="coffe" />
             </div>
@@ -69,6 +72,8 @@
             </div>
           </div>
         </div>
+
+        <div class="separator"></div>
 
         <div class="main-block__proof social-proof section">
           <div class="social-proof__item">
@@ -88,7 +93,48 @@
             <p class="social-proof__item-text">Global Achievement</p>
           </div>
         </div>
+
+        <div class="separator"></div>
       </div>
     </main>
+    <section class="products section">
+      <div class="container">
+        <div class="products-block">
+          <p class="products-block__label">Our products</p>
+          <h2 class="products-block__title">From Top Quality Materials</h2>
+          <div class="products-block__tabs">
+            <button class="products-block__tabs-item products-block__tabs-item_active">Arabica</button>
+            <button class="products-block__tabs-item">Robusta</button>
+            <button class="products-block__tabs-item">Liberica</button>
+          </div>
+          <div class="product-list products-block__items">
+            <div class="product-list__item card">
+              <div class="card__top">
+                <img class="card__top-image" src="./assets/images/coffe-6.png" alt="coffe" />
+              </div>
+              <div class="card__bottom">
+                <p class="card__title">Chocolate Latte</p>
+                <div class="card__rating">
+                  <img class="card__rating-icon" src="./assets/icons/star.svg" alt="star" />
+                  <p class="card__rating-count">4.9</p>
+                  <p class="card__rating-reviews">(<span class="card__review-count">180</span> reviews)</p>
+                </div>
+
+                <p class="card__description">
+                  Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla
+                </p>
+
+                <div class="card__add">
+                  <div class="card__prise">&#36; <span class="card__prise-value">2.9</span></div>
+                  <button class="card__plus">
+                    <img class="card__plus-icon" src="./assets/icons/plus.svg" alt="plus" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -4,6 +4,44 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
 
 html {
   font-family: $main-font;
@@ -63,40 +101,9 @@ html {
   }
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul,
-ol,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-button {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-h1,
-h2,
-h3,
-p {
-  padding: 0;
-  margin: 0;
+.separator {
+  background-color: $main-font-color;
+  max-width: calc(100% - 160px);
+  height: 1px;
+  margin: 0 auto;
 }

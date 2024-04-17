@@ -1,3 +1,8 @@
+
+.main {
+  padding-bottom: 0;
+}
+
 .main-block__top {
   display: flex;
   flex-direction: column;
@@ -6,7 +11,6 @@
 
   max-width: 631px;
   margin: 0 auto;
-  margin-bottom: rem(80);
   text-align: center;
 
   color: $main-font-color;
@@ -22,7 +26,7 @@
   @include textStyle(400, 20, 160%);
 }
 
-.main-block__link {
+.main-block__btn {
   @include fontFamily('Playfair Display SC Regular');
   @include textStyle(400, 24, 140%);
   color: #ffffff;
@@ -37,7 +41,7 @@
   padding: 24px 48px;
 }
 
-.main-block__link-icon {
+.main-block__btn-icon {
   @include size(34px, 34px);
 }
 
@@ -64,6 +68,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
 .social-proof__item {
