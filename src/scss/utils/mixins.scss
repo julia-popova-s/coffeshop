@@ -21,6 +21,6 @@
   height: $height;
 }
 
-@mixin fontFamily($font-name) {
-  font-family: $font-name, 'Arial', 'Helvetica', sans-serif;
+@mixin fontFamily($font-name, $serif) {
+  font-family: $font-name, 'Arial', 'Helvetica', $serif;
 }

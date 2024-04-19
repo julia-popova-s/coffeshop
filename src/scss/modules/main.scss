@@ -1,4 +1,3 @@
-
 .main {
   padding-bottom: 0;
 }
@@ -17,17 +16,17 @@
 }
 
 .main-block__title {
-  @include fontFamily('Playfair Display Medium');
+  @include fontFamily('Playfair Display Medium', sans-serif);
   @include textStyle(500, 64, 120%);
 }
 
 .main-block__text {
-  @include fontFamily("Inter Regular");
+  @include fontFamily("Inter Regular", sans-serif);
   @include textStyle(400, 20, 160%);
 }
 
 .main-block__btn {
-  @include fontFamily('Playfair Display SC Regular');
+  @include fontFamily('Playfair Display SC Regular', sans-serif);
   @include textStyle(400, 24, 140%);
   color: #ffffff;
 
@@ -95,12 +94,12 @@
 }
 
 .social-proof__item-count {
-  @include fontFamily("Inter Regular");
+  @include fontFamily("Inter Regular", sans-serif);
   @include textStyle(400, 64, 120%);
   letter-spacing: -0.02em;
 }
 
 .social-proof__item-text {
-  @include fontFamily('Playfair Display Regular');
+  @include fontFamily('Playfair Display Regular', serif);
   @include textStyle(400, 24, 120%);
 }

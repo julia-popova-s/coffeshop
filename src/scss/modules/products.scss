@@ -5,21 +5,15 @@
 }
 
 .products-block__label {
-  @include fontFamily("Inter Regular");
-  @include textStyle(400, 24, 120%);
-  opacity: 0.56;
   margin-bottom: 8px;
 }
 
 .products-block__title {
-  @include fontFamily("Playfair Display");
-  @include textStyle(400, 36, 120%);
-
   margin-bottom: rem(80);
 }
 
 .products-block__tabs {
-  @include fontFamily("Inter Regular");
+  @include fontFamily("Inter Regular", sans-serif);
   @include textStyle(400, 24, 120%);
   letter-spacing: 2%;
   opacity: 0.7;
@@ -68,7 +62,7 @@
 }
 
 .card__title {
-  @include fontFamily("Plus Jakarta Sans");
+  @include fontFamily("Plus Jakarta Sans", sans-serif);
   @include textStyle(600, 24, 140%);
 }
 
@@ -83,7 +77,7 @@
 }
 
 .card__rating-count {
-  @include fontFamily("Inter Bold");
+  @include fontFamily("Inter Bold", sans-serif);
   @include textStyle(700, 20, 120%);
   letter-spacing: 0.02em;
   opacity: 0.7;
@@ -93,7 +87,7 @@
 
 .card__rating-reviews,
 .card__description {
-  @include fontFamily("Inter Regular");
+  @include fontFamily("Inter Regular", sans-serif);
   @include textStyle(400, 16, 140%);
   opacity: 0.72;
 }
@@ -107,7 +101,7 @@
 }
 
 .card__prise {
-  @include fontFamily("Inter Bold");
+  @include fontFamily("Inter Bold", sans-serif);
   @include textStyle(700, 20, 120%);
   letter-spacing: 0.02em;
   opacity: 0.7;

@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap" rel="stylesheet" />
     <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
     <header class="header">
@@ -100,15 +101,15 @@
     <section class="products section">
       <div class="container">
         <div class="products-block">
-          <p class="products-block__label">Our products</p>
-          <h2 class="products-block__title">From Top Quality Materials</h2>
+          <div class="products-block__label label">Our products</div>
+          <h2 class="products-block__title title">From Top Quality Materials</h2>
           <div class="products-block__tabs">
             <button class="products-block__tabs-item products-block__tabs-item_active">Arabica</button>
             <button class="products-block__tabs-item">Robusta</button>
             <button class="products-block__tabs-item">Liberica</button>
           </div>
-          <div class="product-list products-block__items">
-            <div class="product-list__item card">
+          <ul class="product-list products-block__items">
+            <li class="product-list__item card">
               <div class="card__top">
                 <img class="card__top-image" src="./assets/images/coffe-6.png" alt="coffe" />
               </div>
@@ -131,10 +132,93 @@
                   </button>
                 </div>
               </div>
+            </li>
+          </ul>
+          <div class="pagination">
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="separator"></div>
+    </div>
+
+    <section class="testimonial section">
+      <div class="container">
+        <div class="testimonial-block">
+          <div class="testimonial-block__label label">Testimonial</div>
+          <h3 class="testimonial-block__title title">What our buyers say</h3>
+          <ul class="testimonial-list testimonial-block__items">
+            <li class="testimonial-list__item testimonial-item">
+              <div class="testimonial-item__top">
+                <div class="testimonial-item__left">
+                  <img class="testimonial-item__image" src="./assets/images/avatar-1.png" alt="avatar" />
+                </div>
+                <div class="testimonial-item__right">
+                  <div class="testimonial-item__label">Avril Song</div>
+                  <img class="testimonial-item__icon" src="./assets/icons/star-2.svg" alt="star" />
+                  <img class="testimonial-item__icon" src="./assets/icons/star-2.svg" alt="star" />
+                  <img class="testimonial-item__icon" src="./assets/icons/star-2.svg" alt="star" />
+                  <img class="testimonial-item__icon" src="./assets/icons/star-2.svg" alt="star" />
+                  <img class="testimonial-item__icon" src="./assets/icons/star-2.svg" alt="star" />
+                </div>
+              </div>
+              <div class="testimonial-item__text">
+                Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+                Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui
+                adipiscing.
+              </div>
+            </li>
+          </ul>
+          <div class="pagination">
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+            <img class="pagination__ellipse" src="./assets/icons/ellipse.svg" alt="ellipse" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="separator"></div>
+    </div>
+    <section class="about section">
+      <div class="container">
+        <div class="about-us">
+          <div class="about-us__label label">About us</div>
+          <h4 class="about-us__title title">Why we are the best</h4>
+          <div class="about-us__inner">
+            <div class="about-us__left">
+              <p class="about-us__text">
+                Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+                Integer sed pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui
+                adipiscing.
+              </p>
+              <p class="about-us__text">
+                Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+                Integer sed pretium odio lectus at malesuada sed eget nunc.
+              </p>
+              <p class="about-us__text">
+                Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+              </p>
+            </div>
+
+            <div class="about-us__right">
+              <img class="about-us" src="./assets/images/coffe-15.png" alt="coffe" />
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="container">
+      <div class="separator"></div>
+    </div>
   </body>
 </html>

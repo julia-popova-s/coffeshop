@@ -1,0 +1,32 @@
+.about {}
+
+.container {}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us__label {
+  margin-bottom: 8px;
+}
+
+
+.about-us__title {
+  margin-bottom: rem(80);
+}
+
+.about-us__inner {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 80px;
+}
+
+.about-us__left {
+  max-width: 600px;
+}
+
+.about-us__text {}
+
+.about-us__right {}

@@ -27,7 +27,7 @@
 }
 
 .navigation__list {
-  font-family: 'Inter Regular', Arial, Helvetica, sans-serif;
+  @include fontFamily('Inter Regular', sans-serif);
   @include textStyle(400, 20, 120%);
   color: $main-font-color;
 

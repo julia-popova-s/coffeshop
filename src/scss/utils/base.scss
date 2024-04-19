@@ -38,6 +38,7 @@ img {
 h1,
 h2,
 h3,
+h4,
 p {
   padding: 0;
   margin: 0;
@@ -106,4 +107,19 @@ html {
   max-width: calc(100% - 160px);
   height: 1px;
   margin: 0 auto;
+}
+
+.label {
+  @include fontFamily("Inter Regular", sans-serif);
+  @include textStyle(400, 24, 120%);
+  opacity: 0.56;
+}
+
+.title {
+  @include fontFamily('Playfair Display Regular', serif);
+  @include textStyle(400, 36, 120%);
+}
+
+.pagination__ellipse {
+  @include size(8px, 8px);
 }
