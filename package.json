@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://julia-popova-s.github.io/coffeshop",
   "scripts": {
     "dev": "webpack --env mode=development",
     "build": "webpack --env mode=production",
     "start": "webpack serve --env mode=development",
     "lint": " eslint -c .eslintrc --ext .ts src/",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
@@ -36,6 +39,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-perfectionist": "^2.9.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.8.1",
     "mqpacker": "^7.0.0",
