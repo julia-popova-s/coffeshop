@@ -75,13 +75,9 @@
 .social-proof__item {
   text-align: center;
   position: relative;
-
-  &:last-child::before {
-    content: none;
-  }
 }
 
-.social-proof__item::before {
+.social-proof__item:not(:last-child)::before {
   position: absolute;
   content: '';
 

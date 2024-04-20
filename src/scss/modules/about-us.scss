@@ -1,7 +1,3 @@
-.about {}
-
-.container {}
-
 .about-us {
   display: flex;
   flex-direction: column;
@@ -12,21 +8,27 @@
   margin-bottom: 8px;
 }
 
-
 .about-us__title {
   margin-bottom: rem(80);
 }
 
 .about-us__inner {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
   column-gap: 80px;
+  row-gap: 24px;
 }
 
 .about-us__left {
   max-width: 600px;
+  flex-grow: 1;
+
+  @media(max-width:1440px) {
+    max-width: 100%;
+  }
 }
 
-.about-us__text {}
-
-.about-us__right {}
+.about-us__text:not(:last-child) {
+  margin-bottom: 24px;
+}

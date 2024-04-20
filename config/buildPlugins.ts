@@ -9,6 +9,7 @@ import { BuildOptions } from './types/types';
 export function buildPlugins({ paths }: BuildOptions): Configuration['plugins'] {
   return [
     new HtmlWebpackPlugin({
+      favicon: paths.favicon,
       filename: 'index.html',
       template: paths.html,
     }),

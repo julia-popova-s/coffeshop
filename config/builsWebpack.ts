@@ -28,6 +28,6 @@ export function buildWebpack(options: BuildOptions) {
       path: paths.output,
     },
     plugins: buildPlugins(options),
-    resolve: buildResolvers(),
+    resolve: buildResolvers(options),
   };
 }

@@ -2,7 +2,7 @@ import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import path from 'path';
 import { ModuleOptions } from 'webpack';
 
-import { BuildOptions } from './types/types';
+import { BuildOptions, Paths } from './types/types';
 
 export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
   const isDev = options.mode === 'development';
@@ -19,7 +19,7 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
 
   const imageFileLoader = {
     generator: {
-      filename: 'assets/images/[name]-[contenthash:8][ext]',
+      filename: Paths.Images,
     },
     test: /\.(png|jpe?g|gif)$/i,
     type: 'asset/resource',
@@ -27,7 +27,7 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
 
   const fontFileLoader = {
     generator: {
-      filename: 'assets/fonts/[name]-[contenthash:8][ext]',
+      filename: Paths.Fonts,
     },
     test: /\.(woff|woff2?|eot|ttf|otf)$/i,
     type: 'asset/resource',
@@ -35,10 +35,10 @@ export function buildLoaders(options: BuildOptions): ModuleOptions['rules'] {
 
   const svgFileLoader = {
     generator: {
-      filename: 'assets/icons/[name]-[contenthash:8][ext]',
+      filename: Paths.Icons,
     },
     test: /\.svg$/,
-    type: 'asset/inline',
+    type: 'asset/resource',
   };
 
   const tsLoader = {

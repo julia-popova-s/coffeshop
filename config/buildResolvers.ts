@@ -1,7 +1,12 @@
 import { Configuration } from 'webpack';
 
-export function buildResolvers(): Configuration['resolve'] {
+import { BuildOptions } from './types/types';
+
+export function buildResolvers(options: BuildOptions): Configuration['resolve'] {
   return {
+    alias: {
+      '@': options.paths.src,
+    },
     extensions: ['.ts', '.js'],
   };
 }
