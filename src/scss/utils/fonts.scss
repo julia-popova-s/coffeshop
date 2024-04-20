@@ -1,7 +1,7 @@
 //Inter
 
 @font-face {
-  font-family: 'Inter Regular', sans-serif;
+  font-family: 'Inter Regular';
   src:
     url('../assets/fonts/Inter-Regular.woff2') format('woff2'),
     url('../assets/fonts/Inter-Regular.woff') format('woff');
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: 'Inter Medium', sans-serif;
+  font-family: 'Inter Medium';
   src:
     url('../assets/fonts/Inter-Medium.woff2') format('woff2'),
     url('../assets/fonts/Inter-Medium.woff') format('woff');
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-  font-family: 'Inter SemiBold', sans-serif;
+  font-family: 'Inter SemiBold';
   src:
     url('../assets/fonts/Inter-SemiBold.woff2') format('woff2'),
     url('../assets/fonts/Inter-SemiBold.woff') format('woff');
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-  font-family: 'Inter Bold', sans-serif;
+  font-family: 'Inter Bold';
   src:
     url('../assets/fonts/Inter-Bold.woff2') format('woff2'),
     url('../assets/fonts/Inter-Bold.woff') format('woff');
@@ -41,7 +41,7 @@
 }
 
 @font-face {
-  font-family: 'Inter ExtraBold', sans-serif;
+  font-family: 'Inter ExtraBold';
   src:
     url('../assets/fonts/Inter-ExtraBold.woff2') format('woff2'),
     url('../assets/fonts/Inter-ExtraBold.woff') format('woff');
@@ -51,7 +51,7 @@
 }
 
 @font-face {
-  font-family: 'Inter Black', sans-serif;
+  font-family: 'Inter Black';
   src:
     url('../assets/fonts/Inter-Black.woff2') format('woff2'),
     url('../assets/fonts/Inter-Black.woff') format('woff');
@@ -63,7 +63,7 @@
 //Playfair Display Regular
 
 @font-face {
-  font-family: 'Playfair Display Regular', sans-serif;
+  font-family: 'Playfair Display Regular';
   src:
     url('../assets/fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
     url('../assets/fonts/PlayfairDisplay-Regular.woff') format('woff');
@@ -73,7 +73,17 @@
 }
 
 @font-face {
-  font-family: 'Playfair Display Bold', sans-serif;
+  font-family: 'Playfair Display Medium';
+  src:
+    url('../assets/fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+    url('../assets/fonts/PlayfairDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display Bold';
   src:
     url('../assets/fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
     url('../assets/fonts/PlayfairDisplay-Bold.woff') format('woff');
@@ -83,11 +93,23 @@
 }
 
 @font-face {
-  font-family: 'Playfair Display Black', sans-serif;
+  font-family: 'Playfair Display Black';
   src:
     url('../assets/fonts/PlayfairDisplay-Black.woff2') format('woff2'),
     url('../assets/fonts/PlayfairDisplay-Black.woff') format('woff');
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+//Playfair Display SC
+
+@font-face {
+  font-family: 'Playfair Display SC Regular';
+  src:
+    url('../assets/fonts/playfairdisplaysc.woff2') format('woff2'),
+    url('../assets/fonts/playfairdisplaysc.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }

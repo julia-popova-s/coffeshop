@@ -1,5 +1,4 @@
-import '../scss/style.scss';
-console.log(1);
+import '@/scss/style.scss';
 
 const nums = [1, 2, 3, 4];
 

@@ -1,6 +1,12 @@
-@import './base/normalize';
-@import './base/fonts';
-@import './base/variables';
-@import './base/base';
+@import './utils/normalize';
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/mixins';
 
-@import './layout/header';
+@import './utils/base';
+
+@import './modules/header';
+@import "./modules/main";
+@import "./modules/products";
+@import "./modules/testimonial";
+@import "./modules/about-us.scss";
