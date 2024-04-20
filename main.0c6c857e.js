@@ -1,0 +1,1 @@
+(()=>{"use strict";for(var o=[1,2,3,4],e=0;e<=o.length-1;e++)console.log(e)})();
