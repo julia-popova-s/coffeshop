@@ -1,3 +1,12 @@
-.root {
-  background-color: white;
-}
+@import './utils/normalize';
+@import './utils/fonts';
+@import './utils/variables';
+@import './utils/mixins';
+
+@import './utils/base';
+
+@import './modules/header';
+@import "./modules/main";
+@import "./modules/products";
+@import "./modules/testimonial";
+@import "./modules/about-us.scss";

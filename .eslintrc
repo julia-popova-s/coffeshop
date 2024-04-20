@@ -1,0 +1,16 @@
+{
+  "extends": ["plugin:perfectionist/recommended-natural", "plugin:import/recommended"],
+  "rules": {
+    "perfectionist/sort-interfaces": "error",
+    "import/no-default-export": "off",
+    "import/newline-after-import": ["error", { "count": 1 }],
+    "import/no-unresolved": "off",
+    "no-console": "warn",
+    "semi": ["error", "always"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "max-len": ["warn", { "code": 120 }],
+    "comma-dangle": ["error", "always-multiline"],
+    "prefer-const": "error",
+  },
+  "parser": "@typescript-eslint/parser",
+}
