@@ -39,6 +39,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
+  @include fontFamily('Inter Regular', sans-serif);
+  @include textStyle(400, 14, 120%);
+  letter-spacing: 0.02em;
 }
 
 .article__date,
@@ -52,4 +56,11 @@
 
 .article__link {
   align-self: flex-end;
+  @include fontFamily('Inter Regular', sans-serif);
+  @include textStyle(400, 16, 140%);
+}
+
+.article__text {
+  @include fontFamily('Plus Jakarta Sans', sans-serif);
+  @include textStyle(600, 24, 140%);
 }

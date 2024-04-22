@@ -1,0 +1,27 @@
+.footer {
+  background-color: $main-font-color;
+}
+
+.footer-block__logo-icon {
+  @include size(58px, 58px);
+}
+
+
+.footer-block {}
+
+.footer-block__logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 10px;
+}
+
+.footer-block__logo-icon {}
+
+.footer-block__logo-name {
+  @include fontFamily('Inter SemiBold', sans-serif);
+  @include textStyle(600, 48, 120%);
+
+  color: #FFFFFF;
+}
