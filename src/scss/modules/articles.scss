@@ -1,0 +1,55 @@
+.article__user-icon,
+.article__date-icon {
+  @include size(17px, 17px);
+}
+
+.article__link-icon {
+  @include size(16px, 16px);
+}
+
+.article-list__item {
+  max-width: 405.33px;
+}
+
+.articles-block__label {
+  margin-bottom: 8px;
+}
+
+.articles-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articles-block__items,
+.articles-block__title {
+  margin-bottom: rem(80);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 16px;
+}
+
+.article__info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article__date,
+.article__user,
+.article__link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.article__link {
+  align-self: flex-end;
+}

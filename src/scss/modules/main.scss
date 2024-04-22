@@ -25,25 +25,6 @@
   @include textStyle(400, 20, 160%);
 }
 
-.main-block__btn {
-  @include fontFamily('Playfair Display SC Regular', sans-serif);
-  @include textStyle(400, 24, 140%);
-  color: #ffffff;
-
-  display: flex;
-  align-items: center;
-  column-gap: 16px;
-
-  border-radius: 0 32px;
-  background-color: $primary-color;
-
-  padding: 24px 48px;
-}
-
-.main-block__btn-icon {
-  @include size(34px, 34px);
-}
-
 .main-block__images {
   display: flex;
   align-items: flex-start;

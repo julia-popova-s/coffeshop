@@ -39,6 +39,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
   padding: 0;
   margin: 0;
@@ -122,4 +123,23 @@ html {
 
 .pagination__ellipse {
   @include size(8px, 8px);
+}
+
+.main-button {
+  @include fontFamily('Playfair Display SC Regular', sans-serif);
+  @include textStyle(400, 24, 140%);
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+
+  border-radius: 0 32px;
+  background-color: $primary-color;
+
+  padding: 24px 48px;
+}
+
+.main-button__icon {
+  @include size(34px, 34px);
 }
